@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo {
+    color: rgb(255, 94, 94);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ff4e4e;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.item {
+    
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+header {
+    background-color: #fdff7a;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+header .list-items {
+display: flex;
+margin: 5px;
+align-items: flex-end;
+
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+.apresentacao {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao .texto-apresentacao {
+    min-height: 200px;
+}
+
+.texto-apresentacao h1 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.texto-apresentacao a{
+
+    background-color: rgb(168, 113, 219);
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#quemsomos h2 {
+
+    font-size: 30px;
+    color: black;
+    display: flex;
+
+}
+
+#quemsomos h2::before{
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: black;
+    position: relative;
+}
+
+#quemsomos p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#quemsomos img{
+    min-width: 420px;
+}
+
+.container-externo {
+    background-color: #fdff7a;
+    width: 100%;
+}
+
+#servicos{
+    flex-direction: column;
+    padding: 100px;
+}
+
+#servicos h2 {
+    color: #ff4e4e;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#servicos p{
+    font-family:monospace;
+    color: black;  
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.list-servicos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.list-servicos .item-servicos {
+    text-align: center;
+    margin: 10px;
+    border-radius: 25%;
+}
+
